@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "@fontsource-variable/inter";
 import "./globals.css";
 import { profile } from "@/data/profile";
+import { themeCSSVariables } from "@/data/theme";
 
 const siteUrl =
   profile.seo.siteUrl ||
@@ -41,7 +42,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" style={themeCSSVariables}>
       <body>{children}</body>
     </html>
   );

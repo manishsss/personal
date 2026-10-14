@@ -1,6 +1,6 @@
 # Manish — creator portfolio
 
-A personal portfolio built with Next.js 16, React, TypeScript and Tailwind CSS. Dark editorial design, locally hosted Inter font, responsive layouts, subtle motion and no invented campaign results.
+A personal portfolio built with Next.js 16, React, TypeScript and Tailwind CSS. Lilac Pearl light palette, locally hosted Inter font, responsive layouts, subtle motion and no invented campaign results.
 
 ## Run
 
@@ -36,6 +36,8 @@ The browser tests use Chromium at `/usr/bin/chromium` in this cloud environment.
 Content data uses explicit TypeScript types and can be replaced with CMS/API data later. Unknown performance metrics stay `null`; empty testimonial and brand lists produce clearly labeled placeholders. The only displayed statistics are those supplied in the original brief. Xento's display name can be changed to “Web3 Quest Platform” in `data/campaigns.ts`.
 
 Add video/post URLs to enable Watch/Read links. Add local thumbnail images under `public/` and use paths like `/content/video-01.webp`. Remote images need an appropriate `images.remotePatterns` entry in `next.config.ts`. Use only approved public content and proof.
+
+Colors are defined in `data/theme.ts` and injected as CSS custom properties by the root layout. The site and generated social preview share these tokens. `.tastemaker/style-lock.md` records the selected palette and contrast contract. The SVG favicon uses the same background and primary color.
 
 ## Contact
 

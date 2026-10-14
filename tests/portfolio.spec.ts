@@ -9,7 +9,7 @@ test("page renders, navigation works, and layouts have no overflow", async ({
   await expect(page).toHaveTitle("Manish — Web3 Creator & KOL Manager");
   await expect(page.locator("body")).toHaveCSS(
     "background-color",
-    "rgb(13, 13, 16)",
+    "rgb(252, 246, 253)",
   );
   await expect(page.getByRole("heading", { level: 1 })).toContainText(
     "Finding what's early.",

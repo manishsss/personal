@@ -580,8 +580,8 @@ function PredictionMarkets() {
           <svg viewBox="0 0 540 120" fill="none">
             <defs>
               <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1">
-                <stop stopColor="#a894e8" stopOpacity=".19" />
-                <stop offset="1" stopColor="#a894e8" stopOpacity="0" />
+                <stop stopColor="var(--primary)" stopOpacity=".19" />
+                <stop offset="1" stopColor="var(--primary)" stopOpacity="0" />
               </linearGradient>
             </defs>
             <path
@@ -590,7 +590,7 @@ function PredictionMarkets() {
             />
             <path
               d="M0 106L40 100L65 104L103 76L138 84L172 69L204 74L244 42L282 53L316 40L352 46L388 23L420 31L464 17L500 26L540 7"
-              stroke="#a894e8"
+              stroke="var(--primary)"
               strokeWidth="2"
             />
           </svg>
